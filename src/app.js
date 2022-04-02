@@ -15,6 +15,7 @@ const partialsPath = path.join(__dirname, '../templates/partials');
 app.set('view engine', 'hbs');
 app.set('views', viewsPath)
 hbs.registerPartials(partialsPath)
+
 //Setup static directory to serve
 app.use(express.static(publicDirectoryPath)) //telling the app to load the site from this directory. If this is not here, you will not have access to /img /js /css in the views
 
