@@ -12,7 +12,9 @@ const forecast = (lati, long, callback) => {
                 description: body.current.weather_descriptions,
                 temperature: body.current.temperature,
                 likeTemp: body.current.feelslike,
-                location: body.location.name
+                location: body.location.name,
+                humidity: body.current.humidity,
+                uvindex: body.current.uv_index
             })
         }
     })

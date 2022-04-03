@@ -23,8 +23,7 @@ nav li {
 nav li a {
     transition: ease all 0.2s;
     text-decoration: none;
-    font-weight: bold;
-    color: #303030;
+    color: #505050;
 }
 
 nav li a:hover {
@@ -44,6 +43,14 @@ img {
     height: 500px;
 }
 
+#output1,
+#output2,
+#output3,
+#output4,
+#output5 {
+    font-weight: bold;
+
+}
 
 footer {
     width: 100%;
